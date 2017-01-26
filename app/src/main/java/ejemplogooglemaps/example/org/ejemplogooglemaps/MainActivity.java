@@ -65,6 +65,7 @@ public class MainActivity extends AppCompatActivity  implements
             mapa.moveCamera(CameraUpdateFactory.newLatLngZoom(
                     new LatLng(mapa.getMyLocation().getLatitude(),
                             mapa.getMyLocation().getLongitude()),20));
+            
         }
     }
 }
